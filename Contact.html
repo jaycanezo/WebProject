@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | zenithDevs</title>
+    <link rel="stylesheet" href="ContactStyle.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo"><img src="contact-images/Main-Logo.png" alt="zenithDevs Logo"></div>
+                <button class="mobile-menu-toggle" id="menuToggle" aria-label="Toggle menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="Home.html">Home</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="Portfolio.html">Portfolio</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="Contact.html" class="active">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero-section">
+            <div class="hero-text fade-in">
+                <h1>Reach out and<br>let's bring your<br>ideas to <span class="stylized">life!</span></h1>
+            </div>
+            <div class="hero-image fade-in delay-200">
+                <img src="contact-images/image1.png" alt="Agreement handshake">
+            </div>
+        </section>
+
+        <section class="contact-container">
+            <div class="contact-form fade-in">
+                <p class="form-heading">Fill out the form<br>below to get started</p>
+                <p class="form-subheading">Let us know about your project and we will get<br>back to you with our project proposal and timeline</p>
+                <form id="contact-form">
+                    <div class="form-group fade-in delay-100">
+                        <label for="name">NAME:</label>
+                        <input type="text" id="name" placeholder="Your name" required>
+                    </div>
+                    <div class="form-group fade-in delay-200">
+                        <label for="email">EMAIL:</label>
+                        <input type="email" id="email" placeholder="Your email address" required>
+                    </div>
+                    <div class="form-group fade-in delay-300">
+                        <label for="project">HOW CAN WE HELP?:</label>
+                        <textarea id="project" placeholder="Tell us about your project" required></textarea>
+                    </div>
+                    <button type="submit" id="submit" class="fade-in delay-400">SEND</button>
+                </form>
+            </div>
+            <div class="contact-details fade-in delay-200">
+                <h2>Contact us through:</h2>
+                <p><i class="fa-solid fa-phone"></i> +63 38 532 1348</p>
+                <p><i class="fa-solid fa-envelope"></i> info@zenithdevs.com</p>
+                <h2>Visit us on:</h2>
+                <p><i class="fa-solid fa-location-dot"></i> N. Bacalso Avenue, Cebu City, Philippines 6000</p>
+                <div class="google-map fade-in delay-300">                
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7851.1754550364485!2d123.87761053701783!3d10.294763908166702!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33a99c015a4bf233%3A0x95d783198f4634f8!2sCebu%20Institute%20of%20Technology%20-%20University!5e0!3m2!1sen!2sph!4v1744555167127!5m2!1sen!2sph" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
+
+        <section class="partners-section fade-in">
+            <div class="partners">
+                <h2>Be one with the zenith<span>FAMILY</span> which includes our partners from:</h2>
+                <div class="partners-grid">
+                    <img src="contact-images/amazon.jpg" alt="Amazon" class="fade-in delay-100">
+                    <img src="contact-images/accenture.webp" alt="Accenture" class="fade-in delay-200">
+                    <img src="contact-images/axisbank.webp" alt="Axis Bank" class="fade-in delay-300">
+                    <img src="contact-images/meta.png" alt="Meta" class="fade-in delay-400">
+                </div>
+            </div>
+        </section>
+
+        <h2 class="testimonial-heading fade-in">True to their word, no gimmicks,<br/>just <em><span>results!</span></em></h2>
+
+        <section class="testimonials">
+            <div class="carousel-container fade-in">
+                <input type="radio" name="slider" id="slide1" class="radio-buttons" checked>
+                <input type="radio" name="slider" id="slide2" class="radio-buttons">
+                <input type="radio" name="slider" id="slide3" class="radio-buttons">
+                
+                <div class="carousel">
+                  <!-- Slide 1 -->
+                  <div class="slide">
+                    <div class="testimonial-card fade-in delay-100">
+                      <div class="profile-pic"></div>
+                      <div class="name">James Henry</div>
+                      <div class="bio">
+                        Vestibulum nec posuere lacus. Aenean eget sapien nec risus dictum fermentum. Sed quis tincidunt tortor.
+                      </div>
+                    </div>
+                    
+                    <div class="testimonial-card fade-in delay-200">
+                      <div class="profile-pic"></div>
+                      <div class="name">Jane Hyde</div>
+                      <div class="bio">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at nunc nec metus feugiat volutpat.
+                      </div>
+                    </div>
+                    
+                    <div class="testimonial-card fade-in delay-300">
+                      <div class="profile-pic"></div>
+                      <div class="name">Lowell Hooke</div>
+                      <div class="bio">
+                        Aenean eget sapien nec risus dictum fermentum. Sed quis tincidunt tortor. Curabitur ut lacus non lorem.
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <!-- Slide 2 -->
+                  <div class="slide">
+                    <div class="testimonial-card fade-in delay-100">
+                      <div class="profile-pic"></div>
+                      <div class="name">Sarah Johnson</div>
+                      <div class="bio">
+                        Fusce id justo ac ligula venenatis tincidunt. Integer fringilla, nunc at consectetur vehicula, nisl lorem.
+                      </div>
+                    </div>
+                    
+                    <div class="testimonial-card fade-in delay-200">
+                      <div class="profile-pic"></div>
+                      <div class="name">Michael Chen</div>
+                      <div class="bio">
+                        Proin ut felis id turpis eleifend venenatis nec at magna. Duis nec lorem eget nunc bibendum tincidunt.
+                      </div>
+                    </div>
+                    
+                    <div class="testimonial-card fade-in delay-300">
+                      <div class="profile-pic"></div>
+                      <div class="name">Emma Rodriguez</div>
+                      <div class="bio">
+                        Curabitur ut lacus non lorem varius bibendum. Proin ut felis id turpis eleifend venenatis nec at magna.
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <!-- Slide 3 -->
+                  <div class="slide">
+                    <div class="testimonial-card fade-in delay-100">
+                      <div class="profile-pic"></div>
+                      <div class="name">David Wilson</div>
+                      <div class="bio">
+                        Pharetra metus, at facilisis eros erat non lectus. Fusce id justo ac ligula venenatis tincidunt.
+                      </div>
+                    </div>
+                    
+                    <div class="testimonial-card fade-in delay-200">
+                      <div class="profile-pic"></div>
+                      <div class="name">Olivia Taylor</div>
+                      <div class="bio">
+                        Sed quis tincidunt tortor. Curabitur ut lacus non lorem varius bibendum. Proin ut felis id turpis.
+                      </div>
+                    </div>
+                    
+                    <div class="testimonial-card fade-in delay-300">
+                      <div class="profile-pic"></div>
+                      <div class="name">Daniel Martinez</div>
+                      <div class="bio">
+                        Duis nec lorem eget nunc bibendum tincidunt. Aenean eget sapien nec risus dictum fermentum.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="carousel-controls">
+                  <label for="slide1" aria-label="Go to slide 1"></label>
+                  <label for="slide2" aria-label="Go to slide 2"></label>
+                  <label for="slide3" aria-label="Go to slide 3"></label>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-left fade-in">
+                <p>Reach new heights with us!</p>
+                <a href="#contact-form"><button>Book a meeting ↗</button></a>
+            </div>
+            <div class="footer-right fade-in delay-200">
+                <p>We bring your ideas to life with stunning websites, powerful web apps, seamless mobile experiences, and custom software solutions tailored just for you. Elevate your brand with cutting-edge digital solutions designed by us!</p>
+                <div class="social-links">
+                    <a href="https://www.facebook.com" class="social-button fade-in delay-100">
+                        <img src="home-images/facebook.png" alt="Facebook">
+                        <span>Facebook</span>
+                    </a>
+                    <a href="https://www.instagram.com/" class="social-button fade-in delay-200">
+                        <img src="home-images/instagram.png" alt="Instagram">
+                        <span>Instagram</span>
+                    </a>
+                    <a href="https://www.linkedin.com/" class="social-button fade-in delay-300">
+                        <img src="home-images/linkedin.png" alt="LinkedIn">
+                        <span>LinkedIn</span>
+                    </a>
+                </div>
+                <hr>
+                <div class="footer-nav fade-in delay-400">
+                    <a href="Home.html">Home</a>
+                    <a href="#privacy">Privacy</a>
+                    <a href="#termsconditions">Terms & Conditions</a>
+                    <a href="#career">Career</a>
+                    <p class="copyright">© 2023 zenithDEVS.<br>All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- External JavaScript file -->
+    <script src="Contact.js"></script>
+</body>
+</html>
